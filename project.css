@@ -44,6 +44,19 @@
     align-items: center;
 }
 
+.nav-score{
+    height: 30px;
+    width: 50px;
+    border:0.75px solid #0f1111;;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 4px;
+    
+}
+
+
+
 /*--------------box3---------*/
 .nav-search{
     display: flex;
@@ -127,7 +140,7 @@ span{
 /*--------------hero section------------------*/
 .hero-section{
     height: 350px ;
-    background-image: url("hero_img1.jpg");
+    background-image: url("front.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -203,7 +216,7 @@ footer{
 .foot-panel2{
     background-color: #222f3d;
     color: white;
-    height: 300px;
+    height: 310px;
     display: flex;
     justify-content: space-evenly;
 
@@ -235,8 +248,47 @@ ul a{
     height: 50px;
     width: 100px;
 }
+.nav-english{
+   height: 35px;
+   width: 120px;
+   border:0.75px solid white;
+   background-color: #222f3d;
+   display: flex;
+   justify-content: space-evenly ;
+   align-items: center;
+   border-radius: 4px;
+}.nav-india{
+    height: 35px;
+    width: 80px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 8px;
+    border-radius: 4px;
+    padding-left: 7.8px;
+}
+
 
 .foot-panel4{
+    background-color:#0f1111;
+    color: white;
+    height: 290px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel5{
     background-color: #0f1111;
     color: white;
     height: 88px;
